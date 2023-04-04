@@ -14,9 +14,8 @@ return new class extends Migration
         Schema::create('shopping_lists', function (Blueprint $table) {
             $table->id();
             $table->string('name', 100);
-            $table->integer('price');
+            $table->integer('price')->nullable()->default(null);
             $table->boolean('status')->default(false);
-            $table->boolean('tax_status')->default(false);
             $table->timestamp('updated_at')->useCurrent()->nullable();
             $table->timestamp('created_at')->useCurrent()->nullable();
         });
