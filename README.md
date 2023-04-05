@@ -22,12 +22,12 @@ composer update
 
 ### .envファイルの作成
 
-.env.exampleから.envを作成
-Windows
+.env.exampleから.envを作成</br>
+**Windows**
 ```
 copy .env.example .env
 ```
-Linux
+**Linux**
 ```
 cp .env.example .env
 ```
