@@ -10,7 +10,7 @@ Tailwind CSSを使ってレイアウトを作っています。</br>
 git clone https://github.com/yukiphy/shopping-list-app.git
 ```
 
-## Composerをupdate
+## Composerでupdate
 
 shopping-list-appディレクトリで以下のコマンドを実行
 
